@@ -1,0 +1,10 @@
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\bin\Debug\MathAlgorithms.exe.config
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\bin\Debug\MathAlgorithms.exe
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\bin\Debug\MathAlgorithms.pdb
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\bin\Debug\Algorithms.dll
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\bin\Debug\Algorithms.pdb
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\obj\Debug\MathAlgorithms.csproj.AssemblyReference.cache
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\obj\Debug\MathAlgorithms.csproj.CoreCompileInputs.cache
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\obj\Debug\MathAlgo.212FCCAC.Up2Date
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\obj\Debug\MathAlgorithms.exe
+D:\Projects\C#\MathAlgorithms\MathAlgorithms\obj\Debug\MathAlgorithms.pdb

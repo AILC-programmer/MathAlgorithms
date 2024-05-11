@@ -6,13 +6,28 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
-    public class Sorter
+    public static class Sorter
     {
-        public double[] BubbleSort(params double[] numbers)
+        public static double[] BubbleSort(params double[] numbers)
         {
+            var len = numbers.Length;
+            bool state = false;
 
+            for (int i = 1; i < len; i++)
+            {
+                state = false;
+                for (int j = 0; j < len-i; j++)
+                {
+                    if (numbers[j] > numbers[j+1])
+                    {
+                        Tools.Swap(numbers, j, j + 1);
+                        state = true;
+                    }
+                }
+                if (!state) break;
+            }
 
-            return new double[0];
+            return numbers;
         }
     }
 }
