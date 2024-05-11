@@ -40,8 +40,9 @@ namespace MathAlgorithms
         {
             foreach (var item in list)
             {
-                WriteLine(item.ToString() + '\t');
+                Write(item.ToString() + '\t');
             }
+            WriteLine();
         }
     }
 }

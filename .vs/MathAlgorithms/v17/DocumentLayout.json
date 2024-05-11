@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projects\\C#\\MathAlgorithms\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|d:\\projects\\c#\\mathalgorithms\\mathalgorithms\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|solutionrelative:mathalgorithms\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|D:\\Projects\\C#\\MathAlgorithms\\mathalgorithms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|solutionrelative:mathalgorithms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{69613970-68E6-4982-9F86-A296CEC20905}|Algorithms\\Algorithms.csproj|solutionrelative:algorithms\\sorter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|d:\\projects\\c#\\mathalgorithms\\mathalgorithms\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|solutionrelative:mathalgorithms\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|d:\\projects\\c#\\mathalgorithms\\mathalgorithms\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0604244F-0EE1-4134-A85A-961871C285A1}|MathAlgorithms\\MathAlgorithms.csproj|solutionrelative:mathalgorithms\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69613970-68E6-4982-9F86-A296CEC20905}|Algorithms\\Algorithms.csproj|d:\\projects\\c#\\mathalgorithms\\algorithms\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69613970-68E6-4982-9F86-A296CEC20905}|Algorithms\\Algorithms.csproj|solutionrelative:algorithms\\tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Writer.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Writer.cs",
+              "RelativeDocumentMoniker": "MathAlgorithms\\Writer.cs",
+              "ToolTip": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Writer.cs*",
+              "RelativeToolTip": "MathAlgorithms\\Writer.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwCwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T08:29:02.401Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -39,51 +52,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Writer.cs",
-              "DocumentMoniker": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Writer.cs",
-              "RelativeDocumentMoniker": "MathAlgorithms\\Writer.cs",
-              "ToolTip": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Writer.cs",
-              "RelativeToolTip": "MathAlgorithms\\Writer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Title": "Tools.cs",
+              "DocumentMoniker": "D:\\Projects\\C#\\MathAlgorithms\\Algorithms\\Tools.cs",
+              "RelativeDocumentMoniker": "Algorithms\\Tools.cs",
+              "ToolTip": "D:\\Projects\\C#\\MathAlgorithms\\Algorithms\\Tools.cs",
+              "RelativeToolTip": "Algorithms\\Tools.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T08:13:04.024Z",
+              "WhenOpened": "2024-05-11T08:22:27.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Reader.cs",
-              "DocumentMoniker": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Reader.cs",
-              "RelativeDocumentMoniker": "MathAlgorithms\\Reader.cs",
-              "ToolTip": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Reader.cs",
-              "RelativeToolTip": "MathAlgorithms\\Reader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T07:51:21.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Sorter.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\MathAlgorithms\\Algorithms\\Sorter.cs",
               "RelativeDocumentMoniker": "Algorithms\\Sorter.cs",
               "ToolTip": "D:\\Projects\\C#\\MathAlgorithms\\Algorithms\\Sorter.cs",
               "RelativeToolTip": "Algorithms\\Sorter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T06:48:19.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Program.cs",
               "RelativeDocumentMoniker": "MathAlgorithms\\Program.cs",
               "ToolTip": "D:\\Projects\\C#\\MathAlgorithms\\MathAlgorithms\\Program.cs*",
               "RelativeToolTip": "MathAlgorithms\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAZAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwCQAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-11T06:47:15.668Z",
               "EditorCaption": ""

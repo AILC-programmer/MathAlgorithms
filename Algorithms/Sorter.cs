@@ -8,6 +8,11 @@ namespace Algorithms
 {
     public static class Sorter
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <returns></returns>
         public static double[] BubbleSort(params double[] numbers)
         {
             var len = numbers.Length;
@@ -20,7 +25,7 @@ namespace Algorithms
                 {
                     if (numbers[j] > numbers[j+1])
                     {
-                        Tools.Swap(numbers, j, j + 1);
+                        Tools.Swap(ref numbers[j], ref numbers[j+1]);
                         state = true;
                     }
                 }

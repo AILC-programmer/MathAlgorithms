@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.DesignerServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,6 +36,7 @@ namespace MathAlgorithms
                         {
                             Writer.WriteList(numbers);
                             numbers = Sorter.BubbleSort(numbers.ToArray()).ToList<double>();
+                            WriteLine('\n');
                             Writer.WriteList(numbers);
                         }
                         break;

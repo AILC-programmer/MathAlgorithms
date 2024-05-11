@@ -11,12 +11,11 @@ namespace Algorithms
 {
     public class Tools
     {
-        public static double[] Swap(double[] array, int leftElement, int rightElement)
+        public static void Swap(ref double leftElement, ref double rightElement)
         {
-            var temp = array[leftElement];
-            array[leftElement] = array[rightElement];
-            array[rightElement] = temp;
-            return array;
+            double temp = leftElement;
+            leftElement = rightElement;
+            rightElement = temp;
         }
 
     }
