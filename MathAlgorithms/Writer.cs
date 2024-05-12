@@ -11,15 +11,18 @@ namespace MathAlgorithms
     internal class Writer
     {
         /// <summary>
-        /// option .0. for exit.
-        /// option .a. for input numbers.
-        /// option .1. for bubble sort.
+        /// op .0. for exit.
+        /// op .a. for input numbers.
+        /// op .1. for bubble sort.
+        /// op .2. for find index.
+        /// op .3. for binary search.
         /// </summary>
         /// <returns>returns a selected option.</returns>
         public static string WriteMenu()
         {
             var builder = new StringBuilder();
 
+            builder.AppendLine("-----------------------------------------------------");
             builder.AppendLine("Choose one options:");
             builder.AppendLine();
             builder.AppendLine("0_ Exit.");
@@ -29,8 +32,10 @@ namespace MathAlgorithms
             builder.AppendLine("a_ Enter numbers.");
             builder.AppendLine("---------------------------------------");
             builder.AppendLine("1_ Bubble sort.");
-            builder.AppendLine();
+            builder.AppendLine("2_ Find Index.");
+            builder.AppendLine("3_ Binary search.");
 
+            builder.AppendLine("-----------------------------------------------------");
             Write(builder.ToString());
 
             return Reader.ReadL("Enter option: ");

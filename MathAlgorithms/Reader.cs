@@ -13,7 +13,7 @@ namespace MathAlgorithms
 
         public static List<double> ReadNumbers()
         {
-            int n = 0;
+            double n = 0;
             var numbers = new List<double>();
             bool isReadNumbers = true;
 
@@ -29,7 +29,7 @@ namespace MathAlgorithms
                         isReadNumbers = false;
                         break;
                     }
-                    else if (int.TryParse(num.Trim(), out n))
+                    else if (double.TryParse(num.Trim(), out n))
                     {
                         numbers.Add(n);
                     }

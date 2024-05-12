@@ -40,6 +40,17 @@ namespace MathAlgorithms
                             Writer.WriteList(numbers);
                         }
                         break;
+                    case "2":
+                        {
+                            double n = double.Parse(Reader.ReadL("Find index of: "));
+                            WriteLine(Finder.FindIndexOfX(n,numbers.ToArray()));
+                        }break;
+                    case "3":
+                        {
+                            double n = double.Parse(Reader.ReadL("Binary search for: "));
+                            WriteLine(Finder.BinarySearch(n,numbers.ToArray()));
+                        }
+                        break;
 
                     default:
                         continue;
